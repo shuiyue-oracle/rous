@@ -1,0 +1,14 @@
+import AxiosRequest from "./axios";
+export declare const myAxios: typeof AxiosRequest;
+declare const axios: AxiosRequest;
+export declare const request: (config: import("./axios").BaseAxiosRequestConfig<any>) => Promise<import("axios").AxiosResponse<any, any>>;
+export declare const get: <T = any>(url: string, config?: import("./axios").BaseAxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export declare const head: <T = any>(url: string, config?: import("./axios").BaseAxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export declare const options: <T = any>(url: string, config?: import("./axios").BaseAxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export declare const post: <T = any>(url: string, data: any, config?: import("./axios").BaseAxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export declare const put: <T = any>(url: string, config?: import("axios").AxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export declare const patch: <T = any>(url: string, data: any, config?: import("./axios").BaseAxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export declare const postForm: <T = any>(url: string, data: any, config?: import("./axios").BaseAxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export declare const putForm: <T = any>(url: string, data: any, config?: import("./axios").BaseAxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export declare const patchForm: <T = any>(url: string, data: any, config?: import("./axios").BaseAxiosRequestConfig<any> | undefined) => Promise<import("./axios").BaseAxiosResponse<T, any>>;
+export default axios;
