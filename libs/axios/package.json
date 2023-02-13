@@ -9,6 +9,11 @@
     "build": "rm -rf dist && rollup -c"
   },
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuiyue-oracle/rous.git",
+    "directory": "libs/axios"
+  },
   "author": "shuiyue-oracle",
   "license": "ISC",
   "devDependencies": {
